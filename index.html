@@ -1,12 +1,4 @@
-<!-- =========
 
-	Template Name: Play
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://uideck.com/support/
-	Version: 1.1
-
-========== -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,31 +6,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play | Free Startup and SaaS Landing Page Template by UIdeck</title>
+    <title>ResumeDrop - Stop Wasting Hours on Job Applications | Get Your Life Back in 2 Minutes</title>
 
     <!-- Primary Meta Tags -->
-<meta name="title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta name="description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<meta name="title" content="ResumeDrop - AI-Powered Job Application Tool | Apply to 3x More Jobs">
+<meta name="description" content="ResumeDrop's AI-powered drag-and-drop technology eliminates repetitive data entry forever. Apply to 3x more jobs with the same time investment. Free trial available.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://uideck.com/play/">
-<meta property="og:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="og:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-<meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
+<meta property="og:url" content="https://resumedrop.com/">
+<meta property="og:title" content="ResumeDrop - Stop Wasting Hours on Job Applications">
+<meta property="og:description" content="AI-powered drag-and-drop technology that eliminates repetitive data entry. Apply to 3x more jobs with the same time investment.">
+<meta property="og:image" content="https://resumedrop.com/og-image.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://uideck.com/play/">
-<meta property="twitter:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="twitter:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-<meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
+<meta property="twitter:url" content="https://resumedrop.com/">
+<meta property="twitter:title" content="ResumeDrop - Get Your Life Back in 2 Minutes">
+<meta property="twitter:description" content="Stop wasting hours on job applications. ResumeDrop's AI technology eliminates repetitive data entry forever.">
+<meta property="twitter:image" content="https://resumedrop.com/twitter-image.jpg">
 
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.svg"
-      type="image/svg"
+      href="assets/images/logo/an-icon-of-a-bot-head.png"
+      type="image/png"
     />
 
     <!-- ===== All CSS files ===== -->
@@ -46,6 +38,40 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    
+    <!-- Custom ResumeDrop Brand Styling -->
+    <style>
+      /* Default state - white text and icon */
+      .navbar-brand-text {
+        color: var(--white);
+        transition: all 0.3s ease-out 0s;
+      }
+      
+      .navbar-icon {
+        color: var(--white);
+        transition: all 0.3s ease-out 0s;
+      }
+      
+      /* Sticky state - dark text and icon (when scrolled) */
+      .sticky .navbar-brand-text {
+        color: var(--heading-color);
+      }
+      
+      .sticky .navbar-icon {
+        color: var(--heading-color);
+      }
+      
+      /* Hover effects */
+      .navbar-brand:hover .navbar-brand-text {
+        color: var(--primary-color);
+        opacity: 1;
+      }
+      
+      .navbar-brand:hover .navbar-icon {
+        color: var(--primary-color);
+        opacity: 1;
+      }
+    </style>
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -55,8 +81,10 @@
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/logo.svg" alt="Logo" />
-              </a>
+                <img src="assets/images/logo/an-icon-of-a-bot-head.png" alt="ResumeDrop Logo" width="24" height="24" style="filter: brightness(0) invert(1);" />
+                <span class="navbar-brand-text" style="margin-left: 10px; font-weight: bold;">ResumeDrop</span>
+            </a>
+             
               <button class="navbar-toggler">
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
@@ -68,66 +96,29 @@
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#home">Home</a>
                   </li>
-
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
+                    <a class="ud-menu-scroll" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#about">How It Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#testimonials">Success Stories</a>
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#pricing">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Team</a>
+                    <a class="ud-menu-scroll" href="#faq">FAQ</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> Pages </a>
-                    <ul class="ud-submenu">
-                      <li class="ud-submenu-item">
-                        <a href="about.html" class="ud-submenu-link">
-                          About Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="pricing.html" class="ud-submenu-link">
-                          Pricing Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="contact.html" class="ud-submenu-link">
-                          Contact Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="blog.html" class="ud-submenu-link">
-                          Blog Grid Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="blog-details.html" class="ud-submenu-link">
-                          Blog Details Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="login.html" class="ud-submenu-link">
-                          Sign In Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="404.html" class="ud-submenu-link">404 Page</a>
-                      </li>
-                    </ul>
-                  </li>
+
                 </ul>
               </div>
 
               <div class="navbar-btn d-none d-sm-inline-block">
-                <a href="login.html" class="ud-main-btn ud-login-btn">
-                  Sign In
-                </a>
-                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                  Sign Up
+
+                <a class="ud-main-btn ud-white-btn" href="#pricing" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border: none;">
+                  Start Free Trial
                 </a>
               </div>
             </nav>
@@ -144,31 +135,22 @@
           <div class="col-lg-12">
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
               <h1 class="ud-hero-title">
-                Open-Source Web Template for SaaS, Startup, Apps, and More
+                Stop Wasting Hours on Job Applications.<br>Get Your Life Back in 2 Minutes.
               </h1>
               <p class="ud-hero-desc">
-                Multidisciplinary Web Template Built with Your Favourite
-                Technology - HTML Bootstrap, Tailwind and React NextJS.
+                ResumeDrop's AI-powered drag-and-drop technology eliminates repetitive data entry forever. Apply to 3x more jobs with the same time investment. Join other professionals who've reclaimed their time.
               </p>
               <ul class="ud-hero-buttons">
                 <li>
-                  <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
-                    Download Now
+                  <a href="#pricing" class="ud-main-btn " style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border: none; font-weight: 600;">
+                    Start Your Free Trial - Get 2 Hours Back Today
                   </a>
                 </li>
-                <li>
-                  <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
-                    Learn More <i class="lni lni-arrow-right"></i>
-                  </a>
-                </li>
+
               </ul>
+             
             </div>
-            <div
-              class="ud-hero-brands-wrapper wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <img src="assets/images/hero/brand.svg" alt="brand" />
-            </div>
+
             <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
               <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
               <img
@@ -187,6 +169,46 @@
       </div>
     </section>
     <!-- ====== Hero End ====== -->
+    
+    <!-- ====== Brands Section Start ====== -->
+    <section class="ud-brands-section" style="padding: 60px 0; background: #f8fafc;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-brands wow fadeInUp" data-wow-delay=".2s">
+              <div class="d-flex align-items-center justify-content-center flex-wrap" style="gap: 30px;">
+                <div class="ud-title" style="margin: 0;">
+                  <h6 style="margin: 0; font-size: 16px; font-weight: 600; color: #6b7280;">Works with: </h6>
+                </div>
+                <div class="ud-brands-logo d-flex align-items-center" style="gap: 20px;">
+                  <div class="ud-single-logo">
+                    <img src="assets\images\brands\Indeed_logo.svg.png" alt="Indeed" style="height: 32px; width: auto;" />
+                  </div>
+                  <div class="ud-single-logo">
+                    <img src="assets\images\brands\GREENHOUSE_WORDMARK_GREEN.svg.png" alt="Greenhouse" style="height: 32px; width: auto;" />
+                  </div>
+                  <div class="ud-single-logo">
+                    <img
+                      src="assets\images\brands\LinkedIn_icon.svg"
+                      alt="LinkedIn"
+                      style="height: 32px; width: auto;"
+                    />
+                  </div>
+                  <div class="ud-single-logo">
+                    <img
+                      src="assets\images\brands\Glassdoor_Logo_2023.svg.png"
+                      alt="Glassdoor"
+                      style="height: 32px; width: auto;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Brands Section End ====== -->
 
     <!-- ====== Features Start ====== -->
     <section id="features" class="ud-features">
@@ -194,11 +216,10 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title">
-              <span>Features</span>
-              <h2>Main Features of Play</h2>
+              <span>Why ResumeDrop Works</span>
+              <h2>Powerful Features That Transform Your Job Search</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                ResumeDrop combines cutting-edge AI technology with an intuitive drag-and-drop interface to make job applications effortless and efficient.
               </p>
             </div>
           </div>
@@ -210,12 +231,12 @@
                 <i class="lni lni-gift"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Free and Open-Source</h3>
+                <h3 class="ud-feature-title">AI-Powered Resume Parsing</h3>
                 <p class="ud-feature-desc">
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Never manually extract information again. Our AI understands context and relationships between your experiences, ensuring perfect data extraction every time.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
+                <a href="#about" class="ud-feature-link">
+                  See How It Works
                 </a>
               </div>
             </div>
@@ -226,12 +247,12 @@
                 <i class="lni lni-move"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Multipurpose Template</h3>
+                <h3 class="ud-feature-title">Drag-and-Drop Interface</h3>
                 <p class="ud-feature-desc">
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Make form filling feel natural and engaging. Visual data management eliminates the frustration of traditional autofill tools.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
+                <a href="#about" class="ud-feature-link">
+                  Try It Now
                 </a>
               </div>
             </div>
@@ -242,12 +263,12 @@
                 <i class="lni lni-layout"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">High-quality Design</h3>
+                <h3 class="ud-feature-title">Cross-Platform Compatibility</h3>
                 <p class="ud-feature-desc">
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Works on every major job site - LinkedIn, Indeed, Glassdoor, company career pages. One tool, unlimited applications.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
+                <a href="#testimonials" class="ud-feature-link">
+                  See Success Stories
                 </a>
               </div>
             </div>
@@ -258,12 +279,12 @@
                 <i class="lni lni-layers"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">All Essential Elements</h3>
+                <h3 class="ud-feature-title">Real-Time Updates</h3>
                 <p class="ud-feature-desc">
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Always stay current with the latest job site changes. We update our system continuously to ensure compatibility.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
+                <a href="#pricing" class="ud-feature-link">
+                  Get Started Today
                 </a>
               </div>
             </div>
@@ -279,21 +300,16 @@
         <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
           <div class="ud-about-content-wrapper">
             <div class="ud-about-content">
-              <span class="tag">About Us</span>
-              <h2>Brilliant Toolkit to Build Nextgen Website Faster.</h2>
+              <span class="tag">The Problem</span>
+              <h2>You're Spending More Time on Applications Than Career Development</h2>
               <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel discussions and roundtables led by subject
-                matter experts.
+                While you're manually typing the same information for the 50th time, your competitors are networking, upskilling, and advancing their careers. The administrative burden of job searching is preventing you from focusing on what actually matters - building your professional value.
               </p>
 
               <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel.
+                70% of job seekers report technical issues preventing application completion. Complex forms, broken autofill, and inconsistent data requirements turn every application into a battle. You're not just fighting for a job - you're fighting the system itself.
               </p>
-              <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
+              <a href="#pricing" class="ud-main-btn" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border: none;">Get Your Life Back - Start Free Trial</a>
             </div>
           </div>
           <div class="ud-about-image">
@@ -310,12 +326,12 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span>Pricing</span>
-              <h2>Our Pricing Plans</h2>
+              <span>Limited Time Offer</span>
+              <h2>The Career Acceleration System</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Get instant access to ResumeDrop's complete Career Acceleration System - including AI-powered resume parsing, drag-and-drop form filling, ATS optimization, and cross-platform compatibility. Start your free trial today and experience the transformation in your next application.
               </p>
+
             </div>
           </div>
         </div>
@@ -327,22 +343,22 @@
               data-wow-delay=".15s"
             >
               <div class="ud-pricing-header">
-                <h3>STARTING FROM</h3>
-                <h4>$ 19.99/mo</h4>
+                <h3>FREE TRIAL</h3>
+                <h4>14 Days</h4>
+                <p style="font-size: 14px; color: #6b7280; margin: 5px 0;">No credit card required</p>
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>5 User</li>
-                  <li>All UI components</li>
-                  <li>Lifetime access</li>
-                  <li>Free updates</li>
-                  <li>Use on 1 (one) project</li>
-                  <li>4 Months support</li>
+                  <li>Unlimited applications</li>
+                  <li>AI-powered resume parsing</li>
+                  <li>Drag-and-drop interface</li>
+                  <li>Cross-platform compatibility</li>
+                  <li>Email support</li>
                 </ul>
               </div>
               <div class="ud-pricing-footer">
-                <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                  Purchase Now
+                <a href="javascript:void(0)" class="ud-main-btn ud-border-btn" style="background: #10b981; border-color: #10b981; color: white;">
+                  Start Free Trial
                 </a>
               </div>
             </div>
@@ -352,26 +368,34 @@
               class="ud-single-pricing active wow fadeInUp"
               data-wow-delay=".1s"
             >
-              <span class="ud-popular-tag">POPULAR</span>
+              <span class="ud-popular-tag">BEST VALUE</span>
               <div class="ud-pricing-header">
-                <h3>STARTING FROM</h3>
-                <h4>$ 30.99/mo</h4>
+                <h3>YEARLY ACCESS</h3>
+                <h4>$99/yr</h4>
+                <p style="font-size: 14px; color: #d6dce9; margin: 5px 0;">One-time payment</p>
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>5 User</li>
-                  <li>All UI components</li>
-                  <li>Lifetime access</li>
-                  <li>Free updates</li>
-                  <li>Use on 1 (one) project</li>
-                  <li>4 Months support</li>
+                  <li>Everything in Free Trial</li>
+                  <li>Updates & support</li>
+                  <li>Priority customer support</li>
+                  <li>Resume optimization toolkit</li>
+                  <li>Interview success blueprint</li>
+                  <li>ATS mastery guide</li>
                 </ul>
+                <div style="background: #fef3c7; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #f59e0b;">
+                  <p style="margin: 0; font-size: 14px; color: #92400e; font-weight: 600;">
+                    <strong>Total Value: $200/yr</strong><br>
+                    <span style="text-decoration: line-through; color: #6b7280;">Regular Price: $120/yr</span><br>
+                    <span style="color: #dc2626; font-size: 16px;">Your Price: $99/yr (16% OFF)</span>
+                  </p>
+                </div>
               </div>
-              <div class="ud-pricing-footer">
-                <a href="javascript:void(0)" class="ud-main-btn ud-white-btn">
-                  Purchase Now
+              <!--<div class="ud-pricing-footer">
+                <a href="javascript:void(0)" class="ud-main-btn ud-white-btn" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border: none; color: white; font-weight: 600;">
+                  Get Lifetime Access
                 </a>
-              </div>
+              </div>-->
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-10">
@@ -380,24 +404,25 @@
               data-wow-delay=".15s"
             >
               <div class="ud-pricing-header">
-                <h3>STARTING FROM</h3>
-                <h4>$ 70.99/mo</h4>
+                <h3>MONTHLY</h3>
+                <h4>$10/mo</h4>
+                <p style="font-size: 14px; color: #6b7280; margin: 5px 0;">After free trial</p>
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>5 User</li>
-                  <li>All UI components</li>
-                  <li>Lifetime access</li>
-                  <li>Free updates</li>
-                  <li>Use on 1 (one) project</li>
-                  <li>4 Months support</li>
+                  <li>Everything in Free Trial</li>
+                  <li>Monthly updates</li>
+                  <li>Email support</li>
+                  <li>Basic ATS features</li>
+                  <li>Resume optimization</li>
+                  <li>Cancel anytime</li>
                 </ul>
               </div>
-              <div class="ud-pricing-footer">
+              <!--<div class="ud-pricing-footer">
                 <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                  Purchase Now
+                  Start Monthly Plan
                 </a>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -415,10 +440,9 @@
           <div class="col-lg-12">
             <div class="ud-section-title text-center mx-auto">
               <span>FAQ</span>
-              <h2>Any Questions? Answered</h2>
+              <h2>Frequently Asked Questions</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Get answers to the most common questions about ResumeDrop and how it can transform your job search experience.
               </p>
             </div>
           </div>
@@ -436,15 +460,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>How to use UIdeck?</span>
+                  <span>How does ResumeDrop work with different job sites?</span>
                 </button>
                 <div id="collapseOne" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    ResumeDrop uses advanced browser extension technology to detect and work with any job application form. We're compatible with over 95% of job sites including LinkedIn, Indeed, Glassdoor, and company career pages.
                   </div>
                 </div>
               </div>
@@ -459,15 +479,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>How to download icons from Lineicons?</span>
+                  <span>Is my resume data secure with ResumeDrop?</span>
                 </button>
                 <div id="collapseTwo" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Absolutely. We use enterprise-grade encryption and never store your resume data on our servers. Your information stays on your device and is only used to populate application forms.
                   </div>
                 </div>
               </div>
@@ -482,15 +498,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>Is GrayGrids part of UIdeck?</span>
+                  <span>What if ResumeDrop doesn't work with a specific job site?</span>
                 </button>
                 <div id="collapseThree" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    We continuously update our system to work with new job sites. If a site requires you to fill in a form, it will work.
                   </div>
                 </div>
               </div>
@@ -507,15 +519,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>Can I use this template for commercial project?</span>
+                  <span>I'm not tech-savvy enough to use it</span>
                 </button>
                 <div id="collapseFour" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    ResumeDrop is designed to be incredibly simple. If you can drag and drop files on your computer, you can use ResumeDrop. We also provide video tutorials and 24/7 support to help you get started.
                   </div>
                 </div>
               </div>
@@ -530,15 +538,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>Do you have plan releasing Play Pro?</span>
+                  <span>I only apply to a few jobs per month</span>
                 </button>
                 <div id="collapseFive" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Even applying to 5 jobs per month, ResumeDrop saves you 10+ hours. That's time you can spend networking, upskilling, or with family. Plus, you might find yourself applying to more jobs when it's this easy.
                   </div>
                 </div>
               </div>
@@ -553,15 +557,11 @@
                   <span class="icon flex-shrink-0">
                     <i class="lni lni-chevron-down"></i>
                   </span>
-                  <span>Where and how to host this template?</span>
+                  <span>What's the difference between ResumeDrop and other autofill tools?</span>
                 </button>
                 <div id="collapseSix" class="accordion-collapse collapse">
                   <div class="ud-faq-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    ResumeDrop uses AI to understand context and relationships in your resume, ensuring accurate data extraction. Other tools simply copy-paste text, leading to errors and ATS compatibility issues.
                   </div>
                 </div>
               </div>
@@ -578,11 +578,10 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span>Testimonials</span>
-              <h2>What our Customers Says</h2>
+              <span>Success Stories</span>
+              <h2>Join Other Professionals Who've Transformed Their Job Search</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                See how ResumeDrop has helped career professionals save time, apply to more jobs, and land their dream positions.
               </p>
             </div>
           </div>
@@ -603,20 +602,19 @@
               </div>
               <div class="ud-testimonial-content">
                 <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  "I went from spending 3 hours per application to 5 minutes. ResumeDrop literally gave me my evenings back. I applied to 15 jobs in the time it used to take me to apply to 3."
                 </p>
               </div>
               <div class="ud-testimonial-info">
                 <div class="ud-testimonial-image">
                   <img
                     src="assets/images/testimonials/author-01.png"
-                    alt="author"
+                    alt="Sarah Chen"
                   />
                 </div>
                 <div class="ud-testimonial-meta">
-                  <h4>Sabo Masties</h4>
-                  <p>Founder @UIdeck</p>
+                  <h4>Sarah Chen</h4>
+                  <p>Marketing Manager</p>
                 </div>
               </div>
             </div>
@@ -635,20 +633,19 @@
               </div>
               <div class="ud-testimonial-content">
                 <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  "I was skeptical about AI tools, but ResumeDrop is different. It's like having a personal assistant who never makes mistakes. Worth every penny."
                 </p>
               </div>
               <div class="ud-testimonial-info">
                 <div class="ud-testimonial-image">
                   <img
                     src="assets/images/testimonials/author-02.png"
-                    alt="author"
+                    alt="Jennifer Walsh"
                   />
                 </div>
                 <div class="ud-testimonial-meta">
-                  <h4>Margin Gesmu</h4>
-                  <p>Founder @Lineicons</p>
+                  <h4>Jennifer Walsh</h4>
+                  <p>Project Manager</p>
                 </div>
               </div>
             </div>
@@ -667,66 +664,31 @@
               </div>
               <div class="ud-testimonial-content">
                 <p>
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  "I've tried every job application tool out there. ResumeDrop is the only one that actually saves me time instead of creating more work. It's revolutionary."
                 </p>
               </div>
               <div class="ud-testimonial-info">
                 <div class="ud-testimonial-image">
                   <img
                     src="assets/images/testimonials/author-03.png"
-                    alt="author"
+                    alt="Lisa Thompson"
                   />
                 </div>
                 <div class="ud-testimonial-meta">
-                  <h4>William Smith</h4>
-                  <p>Founder @GrayGrids</p>
+                  <h4>Lisa Thompson</h4>
+                  <p>HR Professional</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-brands wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-title">
-                <h6>Trusted and Used by</h6>
-              </div>
-              <div class="ud-brands-logo">
-                <div class="ud-single-logo">
-                  <img src="assets/images/brands/ayroui.svg" alt="ayroui" />
-                </div>
-                <div class="ud-single-logo">
-                  <img src="assets/images/brands/uideck.svg" alt="uideck" />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/graygrids.svg"
-                    alt="graygrids"
-                  />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/lineicons.svg"
-                    alt="lineicons"
-                  />
-                </div>
-                <div class="ud-single-logo">
-                  <img
-                    src="assets/images/brands/ecommerce-html.svg"
-                    alt="ecommerce-html"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Team Start ====== -->
-    <section id="team" class="ud-team">
+    <!--<section id="team" class="ud-team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -910,7 +872,7 @@
       </div>
     </section>
     <!-- ====== Team End ====== -->
-
+    
     <!-- ====== Contact Start ====== -->
     <section id="contact" class="ud-contact">
       <div class="container">
@@ -918,10 +880,10 @@
           <div class="col-xl-8 col-lg-7">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title">
-                <span>CONTACT US</span>
+                <span>READY TO TRANSFORM YOUR JOB SEARCH?</span>
                 <h2>
-                  Let’s talk about <br />
-                  Love to hear from you!
+                  Join the Career Accelerated <br />
+                  Start Your Free Trial Today!
                 </h2>
               </div>
               <div class="ud-contact-info-wrapper">
@@ -930,8 +892,8 @@
                     <i class="lni lni-map-marker"></i>
                   </div>
                   <div class="ud-info-meta">
-                    <h5>Our Location</h5>
-                    <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                    <h5>Get Started Now</h5>
+                    <p>Start your free 14-day trial and experience the ResumeDrop difference</p>
                   </div>
                 </div>
                 <div class="ud-single-info">
@@ -939,65 +901,43 @@
                     <i class="lni lni-envelope"></i>
                   </div>
                   <div class="ud-info-meta">
-                    <h5>How Can We Help?</h5>
-                    <p>info@yourdomain.com</p>
-                    <p>contact@yourdomain.com</p>
+                    <h5>Need Support?</h5>
+                    <p>support@resumedrop.com</p>
+                    <p>help@resumedrop.com</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-5">
-            <div
-              class="ud-contact-form-wrapper wow fadeInUp"
-              data-wow-delay=".2s"
-            >
-              <h3 class="ud-contact-form-title">Send us a Message</h3>
-              <form class="ud-contact-form">
-                <div class="ud-form-group">
-                  <label for="fullName">Full Name*</label>
-                  <input
-                    type="text"
-                    name="fullName"
-                    placeholder="Adam Gelius"
-                  />
-                </div>
-                <div class="ud-form-group">
-                  <label for="email">Email*</label>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="example@yourmail.com"
-                  />
-                </div>
-                <div class="ud-form-group">
-                  <label for="phone">Phone*</label>
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="+885 1254 5211 552"
-                  />
-                </div>
-                <div class="ud-form-group">
-                  <label for="message">Message*</label>
-                  <textarea
-                    name="message"
-                    rows="1"
-                    placeholder="type your message here"
-                  ></textarea>
-                </div>
-                <div class="ud-form-group mb-0">
-                  <button type="submit" class="ud-main-btn">
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
+          <d
         </div>
       </div>
     </section>
     <!-- ====== Contact End ====== -->
+
+    <!-- ====== Final CTA Start ====== -->
+    <section class="ud-cta" style="background: linear-gradient(135deg, #1e40af, #2563eb); padding: 80px 0; color: white;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px; font-weight: 700;">
+              Don't Let Another Day Pass Wasting Hours on Applications
+            </h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9;color:white">
+              Join other professionals who've transformed their job search with ResumeDrop. Start your free trial today and get your life back.
+            </p>
+
+            <a href="#pricing" class="ud-main-btn" style="background: white; color: #2563eb; font-weight: 600; padding: 15px 40px; font-size: 1.1rem; border: none; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);">
+              Start Your Free Trial - Get 2 Hours Back Today
+            </a>
+            <p style="margin-top: 15px; font-size: 14px; opacity: 0.8;color:white">
+              No credit card required • 14-day free trial • Cancel anytime
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Final CTA End ====== -->
 
     <!-- ====== Footer Start ====== -->
     <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
@@ -1013,14 +953,14 @@
       <div class="ud-footer-widgets">
         <div class="container">
           <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
               <div class="ud-widget">
-                <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
+                <a href="index.html" class="ud-footer-logo d-flex align-items-center mb-3" style="text-decoration: none;">
+                  <img src="assets/images/logo/an-icon-of-a-bot-head.png" alt="ResumeDrop Logo" width="28" height="28" style="filter: brightness(0) invert(1);" />
+                  <span style="margin-left: 12px; font-weight: bold; color: white; font-size: 22px;">ResumeDrop</span>
                 </a>
-                <p class="ud-widget-desc">
-                  We create digital experiences for brands and companies by
-                  using technology.
+                <p class="ud-widget-desc" style="margin-bottom: 20px; line-height: 1.6;">
+                  ResumeDrop transforms your job search from a frustrating, time-consuming process into an efficient, empowering experience. Join other professionals who've reclaimed their time.
                 </p>
                 <ul class="ud-widget-socials">
                   <li>
@@ -1047,160 +987,81 @@
               </div>
             </div>
 
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 mb-4">
               <div class="ud-widget">
-                <h5 class="ud-widget-title">About Us</h5>
+                <h5 class="ud-widget-title">Product</h5>
                 <ul class="ud-widget-links">
                   <li>
-                    <a href="javascript:void(0)">Home</a>
+                    <a href="#features">Features</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Features</a>
+                    <a href="#about">How It Works</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">About</a>
+                    <a href="#pricing">Pricing</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Testimonial</a>
+                    <a href="#testimonials">Success Stories</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 mb-4">
               <div class="ud-widget">
-                <h5 class="ud-widget-title">Features</h5>
+                <h5 class="ud-widget-title">Support</h5>
                 <ul class="ud-widget-links">
                   <li>
-                    <a href="javascript:void(0)">How it works</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Privacy policy</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Terms of service</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Refund policy</a>
+                    <a href="#faq">FAQ</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 mb-4">
               <div class="ud-widget">
-                <h5 class="ud-widget-title">Our Products</h5>
+                <h5 class="ud-widget-title">Company</h5>
                 <ul class="ud-widget-links">
                   <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Lineicons
-                    </a>
+                    <a href="#about">About Us</a>
                   </li>
                   <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ecommerce HTML</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ayro UI</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Plain Admin</a
-                    >
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 mb-4">
               <div class="ud-widget">
-                <h5 class="ud-widget-title">Partners</h5>
-                <ul class="ud-widget-brands">
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ayroui.svg"
-                        alt="ayroui"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ecommerce-html.svg"
-                        alt="ecommerce-html"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/graygrids.svg"
-                        alt="graygrids"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/lineicons.svg"
-                        alt="lineicons"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://uideck.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/uideck.svg"
-                        alt="uideck"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindtemplates.co/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/tailwindtemplates.svg"
-                        alt="tailwindtemplates"
-                      />
-                    </a>
-                  </li>
-                </ul>
+                <h5 class="ud-widget-title">Works With</h5>
+                <div class="ud-widget-brands" style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start;">
+                  <div style="display: flex; align-items: center; justify-content: flex-start; height: 35px;">
+                    <img
+                      src="assets/images/brands/Indeed_logo.svg.png"
+                      alt="Indeed"
+                      style="height: 28px; width: auto; max-width: 90px;"
+                    />
+                  </div>
+                  <div style="display: flex; align-items: center; justify-content: flex-start; height: 35px;">
+                    <img
+                      src="assets/images/brands/GREENHOUSE_WORDMARK_GREEN.svg.png"
+                      alt="Greenhouse"
+                      style="height: 28px; width: auto; max-width: 90px;"
+                    />
+                  </div>
+                  <div style="display: flex; align-items: center; justify-content: flex-start; height: 35px;">
+                    <img
+                      src="assets/images/brands/LinkedIn_icon.svg"
+                      alt="LinkedIn"
+                      style="height: 28px; width: auto; max-width: 90px;"
+                    />
+                  </div>
+                  <div style="display: flex; align-items: center; justify-content: flex-start; height: 35px;">
+                    <img
+                      src="assets/images/brands/Glassdoor_Logo_2023.svg.png"
+                      alt="Glassdoor"
+                      style="height: 28px; width: auto; max-width: 90px;"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1209,23 +1070,9 @@
       <div class="ud-footer-bottom">
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
-              <ul class="ud-footer-bottom-left">
-                <li>
-                  <a href="javascript:void(0)">Privacy policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Support policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Terms of service</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-12 text-center">
               <p class="ud-footer-bottom-right">
-                Designed and Developed by
-                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
+                © 2025 ResumeDrop. All rights reserved.
               </p>
             </div>
           </div>

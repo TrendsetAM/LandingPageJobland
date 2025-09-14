@@ -15,7 +15,7 @@
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color: #172553;
   --white: #ffffff;
 }
 
@@ -1177,6 +1177,7 @@ p {
   background: #afb2b5;
   right: -40px;
   top: 50%;
+  display:none;
 }
 
 .ud-brands .ud-brands-logo {
