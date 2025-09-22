@@ -6,12 +6,12 @@ Lineicons regular icon font
 
 @font-face {
   font-family: 'Lineicons';
-  src: url('../fonts/Lineicons.eot');
-  src: url('../fonts/Lineicons.eot') format('embedded-opentype'),
-       url('../fonts/Lineicons.woff2') format('woff2'),
-       url('../fonts/Lineicons.woff') format('woff'),
-       url('../fonts/Lineicons.ttf') format('truetype'),
-       url('../fonts/Lineicons.svg') format('svg');
+  src: url('../fonts/LineIcons.eot');
+  src: url('../fonts/LineIcons.eot') format('embedded-opentype'),
+       url('../fonts/LineIcons.woff2') format('woff2'),
+       url('../fonts/LineIcons.woff') format('woff'),
+       url('../fonts/LineIcons.ttf') format('truetype'),
+       url('../fonts/LineIcons.svg') format('svg');
 }
 
 /* base class */
