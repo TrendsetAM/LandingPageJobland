@@ -1,9 +1,9 @@
-# ResumeDrop Mega Context
+# ResumeDropAI Mega Context
 
 ## Product Description
 
 ### Core Functionality
-ResumeDrop is a Chrome extension that uses AI/LLM technology to intelligently parse resume content and provides a drag-and-drop interface for users to easily populate job application forms with extracted information. The primary purpose is to eliminate repetitive data entry by automatically extracting professional information from resumes and allowing users to visually drag and drop this data into job application forms.
+ResumeDropAI is a Chrome extension that uses AI/LLM technology to intelligently parse resume content and provides a drag-and-drop interface for users to easily populate job application forms with extracted information. The primary purpose is to eliminate repetitive data entry by automatically extracting professional information from resumes and allowing users to visually drag and drop this data into job application forms.
 
 ### Problem Solved
 **Primary Problem**: Repetitive data entry when filling out job applications after already uploading a resume
@@ -21,7 +21,7 @@ ResumeDrop is a Chrome extension that uses AI/LLM technology to intelligently pa
 - Cross-platform data portability between different job sites
 
 ### Current Positioning
-ResumeDrop is positioned as the most intuitive and user-friendly job application autofill solution, combining AI intelligence with superior visual user experience. Its unique selling proposition is the drag-and-drop interface that makes form filling feel natural and engaging rather than tedious.
+ResumeDropAI is positioned as the most intuitive and user-friendly job application autofill solution, combining AI intelligence with superior visual user experience. Its unique selling proposition is the drag-and-drop interface that makes form filling feel natural and engaging rather than tedious.
 
 ---
 
@@ -132,27 +132,27 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 ## Key Marketing Angles
 
 ### **Angle 1: "Time Liberation Hero"** (Primary)
-**Core Message**: ResumeDrop doesn't just save time—it gives you back your life by eliminating the soul-crushing repetition of job applications.
+**Core Message**: ResumeDropAI doesn't just save time—it gives you back your life by eliminating the soul-crushing repetition of job applications.
 **Targeted Pain Point**: Addresses the 75% frequency time waste issue and career advancement stagnation.
 **Keywords**: "Get your life back," "Stop the application grind," "From hours to minutes," "Reclaim your time"
 
 ### **Angle 2: "ATS Whisperer"** (Secondary)
-**Core Message**: ResumeDrop speaks the language of Applicant Tracking Systems, ensuring your applications don't get lost in the digital void.
+**Core Message**: ResumeDropAI speaks the language of Applicant Tracking Systems, ensuring your applications don't get lost in the digital void.
 **Targeted Pain Point**: Addresses fear of application rejection and ATS compatibility issues.
 **Keywords**: "Speak ATS fluently," "Never get filtered out again," "ATS-proof your applications," "Beat the system"
 
 ### **Angle 3: "Career Momentum Accelerator"** (Tertiary)
-**Core Message**: ResumeDrop transforms your job search from a slow, painful crawl into a strategic sprint toward your dream career.
+**Core Message**: ResumeDropAI transforms your job search from a slow, painful crawl into a strategic sprint toward your dream career.
 **Targeted Pain Point**: Addresses career advancement stagnation and professional growth desires.
 **Keywords**: "Accelerate your career," "From stuck to unstoppable," "Career velocity," "Professional momentum"
 
 ### **Angle 4: "The Professional's Secret Weapon"**
-**Core Message**: ResumeDrop is the insider tool that gives you a competitive advantage over other job seekers.
+**Core Message**: ResumeDropAI is the insider tool that gives you a competitive advantage over other job seekers.
 **Targeted Pain Point**: Addresses fear of competitive disadvantage and desire to stay ahead.
 **Keywords**: "Secret weapon," "Competitive advantage," "Stay ahead of the curve," "Professional edge"
 
 ### **Angle 5: "Application Experience Revolution"**
-**Core Message**: ResumeDrop completely reimagines what applying to jobs should feel like in the 21st century.
+**Core Message**: ResumeDropAI completely reimagines what applying to jobs should feel like in the 21st century.
 **Targeted Pain Point**: Addresses user experience friction and desire for intuitive tools.
 **Keywords**: "Revolutionary experience," "21st century job search," "Redefine the process," "Modern application flow"
 
@@ -161,14 +161,14 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 ## Overall Objective
 
 ### Primary Action Goal
-**Sign up for ResumeDrop free trial** - We want users to experience the immediate time savings and improved application quality that transforms their job search from frustrating to empowering.
+**Sign up for ResumeDropAI free trial** - We want users to experience the immediate time savings and improved application quality that transforms their job search from frustrating to empowering.
 
 ### Secondary Understanding Goals
 1. **Understand the Problem**: Recognize that repetitive data entry is a significant career advancement barrier
 2. **Feel the Frustration**: Connect with the emotional toll of inefficient job application processes
 3. **See the Solution**: Understand how AI-powered drag-and-drop eliminates the pain
-4. **Believe the Benefits**: Trust that ResumeDrop delivers measurable time savings and quality improvements
-5. **Take Action**: Commit to trying ResumeDrop and experiencing the transformation
+4. **Believe the Benefits**: Trust that ResumeDropAI delivers measurable time savings and quality improvements
+5. **Take Action**: Commit to trying ResumeDropAI and experiencing the transformation
 
 ### Emotional Transformation
 **From**: Frustrated, overwhelmed, and stuck in repetitive administrative tasks
@@ -185,10 +185,10 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 
 ### Messaging Hierarchy
 1. **Problem**: "Stop wasting hours on repetitive job applications"
-2. **Solution**: "ResumeDrop automatically fills forms in minutes"
+2. **Solution**: "ResumeDropAI automatically fills forms in minutes"
 3. **Benefit**: "Get your time back and focus on your career"
 4. **Proof**: "Used by professionals who've reduced application time by 80%"
-5. **Action**: "Try ResumeDrop free today and experience the difference"
+5. **Action**: "Try ResumeDropAI free today and experience the difference"
 
 ### Content Strategy
 - **Lead with "Time Liberation Hero"** in all primary marketing materials
@@ -198,7 +198,7 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 - **Use "Application Experience Revolution"** in product demos and user experience content
 
 ### Competitive Positioning
-ResumeDrop is positioned as the most intuitive and user-friendly job application autofill solution, combining AI intelligence with superior visual user experience. Unlike competitors who focus on basic parsing or complex enterprise solutions, ResumeDrop delivers immediate value through its unique drag-and-drop interface and intelligent AI parsing.
+ResumeDropAI is positioned as the most intuitive and user-friendly job application autofill solution, combining AI intelligence with superior visual user experience. Unlike competitors who focus on basic parsing or complex enterprise solutions, ResumeDropAI delivers immediate value through its unique drag-and-drop interface and intelligent AI parsing.
 
 ---
 
@@ -207,7 +207,7 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 ### Voice & Tone
 - **Professional but approachable**: Speak to career-focused professionals as equals
 - **Efficiency-focused**: Emphasize time savings and productivity gains
-- **Confidence-inspiring**: Position ResumeDrop as the solution to a real problem
+- **Confidence-inspiring**: Position ResumeDropAI as the solution to a real problem
 - **Action-oriented**: Use active language that encourages immediate engagement
 
 ### Key Messaging Principles
@@ -225,4 +225,4 @@ ResumeDrop is positioned as the most intuitive and user-friendly job application
 - **Email sequences** guiding users from problem recognition to solution adoption
 - **Case studies** showcasing measurable career advancement results
 
-This Mega Context provides the comprehensive foundation for generating any marketing content that will resonate with the Efficiency-Driven Career Optimizer persona and drive action toward ResumeDrop adoption.
+This Mega Context provides the comprehensive foundation for generating any marketing content that will resonate with the Efficiency-Driven Career Optimizer persona and drive action toward ResumeDropAI adoption.
