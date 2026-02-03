@@ -1,19 +1,25 @@
 (function () {
   "use strict";
 
-  // Derive logo path from the image's current src so it works locally and in production (any domain/base path)
+  // Get the base URL for assets (works for both root and subdirectory pages)
+  function getAssetsPath() {
+    // Extract the origin and base path from current location
+    var origin = window.location.origin;
+    var pathname = window.location.pathname;
+    
+    // If we're in a subdirectory, we need to go back to root
+    // For https://resumedropai.com/professional-resume-writing-services/ -> https://resumedropai.com/
+    // For https://resumedropai.com/ -> https://resumedropai.com/
+    return origin + '/assets/images/logo/';
+  }
+
+  // Set logo src using absolute path from root
   function setLogoSrc(logo, filename) {
-    if (!logo || !logo.src) return;
+    if (!logo) return;
     
     try {
-      // Get the directory from current src
-      var currentSrc = logo.src;
-      var lastSlashIndex = currentSrc.lastIndexOf('/');
-      
-      if (lastSlashIndex === -1) return; // No slash found, can't determine directory
-      
-      var dir = currentSrc.substring(0, lastSlashIndex + 1);
-      var newSrc = dir + filename;
+      var assetsPath = getAssetsPath();
+      var newSrc = assetsPath + filename;
       
       // Only update if the new src is different
       if (logo.src !== newSrc) {
