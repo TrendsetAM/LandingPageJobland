@@ -1,16 +1,12 @@
 (function () {
   "use strict";
 
-  // Resolve assets base path so logo works from any page (root or subfolders like professional-resume-writing-services/)
-  function getAssetsBase() {
-    const script = document.currentScript;
-    if (script && script.src) {
-      const match = script.src.match(/^(.*\/)assets\/js\/main\.js/);
-      return match ? match[1] : "";
-    }
-    return "";
+  // Derive logo path from the image's current src so it works locally and in production (any domain/base path)
+  function setLogoSrc(logo, filename) {
+    if (!logo || !logo.src) return;
+    var dir = logo.src.replace(/\/[^\/]+$/, "/");
+    logo.src = dir + filename;
   }
-  const assetsBase = getAssetsBase();
 
   // ======= Sticky
   window.onscroll = function () {
@@ -25,13 +21,9 @@
       ud_header.classList.remove("sticky");
     }
 
-    // === logo change (use resolved base path so it works from subfolders)
+    // === logo change (use same directory as current image so it works in all environments)
     if (logo) {
-      if (ud_header.classList.contains("sticky")) {
-        logo.src = assetsBase + "assets/images/logo/RDLogoB.png";
-      } else {
-        logo.src = assetsBase + "assets/images/logo/RDLogoC.png";
-      }
+      setLogoSrc(logo, ud_header.classList.contains("sticky") ? "RDLogoB.png" : "RDLogoC.png");
     }
 
     // show or hide the back-top-top button
