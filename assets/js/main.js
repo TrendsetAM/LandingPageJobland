@@ -1,9 +1,21 @@
 (function () {
   "use strict";
 
+  // Resolve assets base path so logo works from any page (root or subfolders like professional-resume-writing-services/)
+  function getAssetsBase() {
+    const script = document.currentScript;
+    if (script && script.src) {
+      const match = script.src.match(/^(.*\/)assets\/js\/main\.js/);
+      return match ? match[1] : "";
+    }
+    return "";
+  }
+  const assetsBase = getAssetsBase();
+
   // ======= Sticky
   window.onscroll = function () {
     const ud_header = document.querySelector(".ud-header");
+    if (!ud_header) return;
     const sticky = ud_header.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
@@ -13,11 +25,13 @@
       ud_header.classList.remove("sticky");
     }
 
-    // === logo change
-    if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/RDLogoB.png";
-    } else {
-      logo.src = "assets/images/logo/RDLogoC.png";
+    // === logo change (use resolved base path so it works from subfolders)
+    if (logo) {
+      if (ud_header.classList.contains("sticky")) {
+        logo.src = assetsBase + "assets/images/logo/RDLogoB.png";
+      } else {
+        logo.src = assetsBase + "assets/images/logo/RDLogoC.png";
+      }
     }
 
     // show or hide the back-top-top button
