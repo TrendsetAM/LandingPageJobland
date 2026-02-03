@@ -4,9 +4,28 @@
   // Derive logo path from the image's current src so it works locally and in production (any domain/base path)
   function setLogoSrc(logo, filename) {
     if (!logo || !logo.src) return;
-    var dir = logo.src.replace(/\/[^\/]+$/, "/");
-    logo.src = dir + filename;
+    
+    try {
+      // Get the directory from current src
+      var currentSrc = logo.src;
+      var lastSlashIndex = currentSrc.lastIndexOf('/');
+      
+      if (lastSlashIndex === -1) return; // No slash found, can't determine directory
+      
+      var dir = currentSrc.substring(0, lastSlashIndex + 1);
+      var newSrc = dir + filename;
+      
+      // Only update if the new src is different
+      if (logo.src !== newSrc) {
+        logo.src = newSrc;
+      }
+    } catch (e) {
+      console.error('Error setting logo src:', e);
+    }
   }
+
+  // Track sticky state to avoid unnecessary logo changes
+  let isSticky = false;
 
   // ======= Sticky
   window.onscroll = function () {
@@ -15,15 +34,18 @@
     const sticky = ud_header.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
-    if (window.pageYOffset > sticky) {
+    const shouldBeSticky = window.pageYOffset > sticky;
+
+    if (shouldBeSticky) {
       ud_header.classList.add("sticky");
     } else {
       ud_header.classList.remove("sticky");
     }
 
-    // === logo change (use same directory as current image so it works in all environments)
-    if (logo) {
-      setLogoSrc(logo, ud_header.classList.contains("sticky") ? "RDLogoB.png" : "RDLogoC.png");
+    // === logo change (only when sticky state changes to avoid repeated loading)
+    if (logo && shouldBeSticky !== isSticky) {
+      isSticky = shouldBeSticky;
+      setLogoSrc(logo, isSticky ? "RDLogoB.png" : "RDLogoC.png");
     }
 
     // show or hide the back-top-top button
